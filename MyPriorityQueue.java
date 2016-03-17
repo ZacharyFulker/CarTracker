@@ -231,7 +231,7 @@ public class MyPriorityQueue {
         }        
     }
     
-    public void sink(int PQ, int index){
+    public void sink(int index, int PQ){
         if(PQ == 0){
             while(((2*index)+1) < size){
                 int left = (2 * index) + 1;
